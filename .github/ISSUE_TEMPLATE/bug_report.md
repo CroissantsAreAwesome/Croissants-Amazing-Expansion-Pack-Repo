@@ -1,11 +1,11 @@
 ---
-name: Feature Request
-about: Suggest an idea or enhancement for the mod
-labels: enhancement
+name: Bug Report
+about: Report bugs or something wrong with the mmod
+labels: bug
 ---
 
-## ✨ What feature do you want?
+## What version of minecraft are you using
 
-## 🧠 Why would this be useful?
+## What mod loader are you using
 
-## 📦 Additional Notes
+## 📦 Additional Notes- Explain the bug.
