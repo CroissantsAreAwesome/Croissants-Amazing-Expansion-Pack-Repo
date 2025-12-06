@@ -1,0 +1,286 @@
+{
+  "mod_elements": [
+    {
+      "name": "IGotThePower",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "i_got_the_power",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/advancement/i_got_the_power.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ACHIVEMENTS"
+    },
+    {
+      "name": "TNTPICKAXERECIPE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntpickaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/recipe/tntpickaxerecipe.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT TOOLS/TNT PICKAXE"
+    },
+    {
+      "name": "TNTICKAXE",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/expansive_tools_pack/items/tntickaxe.json",
+          "src/main/resources/assets/expansive_tools_pack/models/item/tntickaxe.json",
+          "src/main/java/net/mcreator/expansivetoolspack/item/TNTICKAXEItem.java"
+        ]
+      },
+      "path": "~/TNT Pack/TNT TOOLS/TNT PICKAXE"
+    },
+    {
+      "name": "TNTICKAXEItemIsCraftedsmelted",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntickaxe_item_is_craftedsmelted",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/expansivetoolspack/procedures/TNTICKAXEItemIsCraftedsmeltedProcedure.java"
+        ]
+      },
+      "path": "~/TNT Pack/TNT TOOLS/TNT PICKAXE"
+    },
+    {
+      "name": "TNTICKAXERightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntickaxe_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/expansivetoolspack/procedures/TNTICKAXERightclickedOnBlockProcedure.java"
+        ]
+      },
+      "path": "~/TNT Pack/TNT TOOLS/TNT PICKAXE"
+    },
+    {
+      "name": "TNTARMOR",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntarmor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/expansive_tools_pack/items/tntarmor_leggings.json",
+          "src/main/java/net/mcreator/expansivetoolspack/item/TNTARMORItem.java",
+          "src/main/resources/assets/expansive_tools_pack/items/tntarmor_helmet.json",
+          "src/main/resources/assets/expansive_tools_pack/items/tntarmor_boots.json",
+          "src/main/resources/assets/expansive_tools_pack/items/tntarmor_chestplate.json",
+          "src/main/resources/assets/expansive_tools_pack/models/item/tntarmor_chestplate.json",
+          "src/main/java/net/mcreator/expansivetoolspack/client/renderer/item/TNTARMORArmor.java",
+          "src/main/resources/assets/expansive_tools_pack/models/item/tntarmor_boots.json",
+          "src/main/resources/assets/expansive_tools_pack/equipment/tntarmor.json",
+          "src/main/resources/assets/expansive_tools_pack/models/item/tntarmor_helmet.json",
+          "src/main/resources/assets/expansive_tools_pack/models/item/tntarmor_leggings.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ARMOR"
+    },
+    {
+      "name": "TNTHELMETRECIPE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnthelmetrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/recipe/tnthelmetrecipe.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ARMOR"
+    },
+    {
+      "name": "TNTCHESTPLATERECIPE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntchestplaterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/recipe/tntchestplaterecipe.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ARMOR"
+    },
+    {
+      "name": "TNTLEGGINGSRECIPE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntleggingsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/recipe/tntleggingsrecipe.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ARMOR"
+    },
+    {
+      "name": "TNTBOOTSRECIPE",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tntbootsrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/expansive_tools_pack/recipe/tntbootsrecipe.json"
+        ]
+      },
+      "path": "~/TNT Pack/TNT ARMOR"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TNTICKAXE"
+    ],
+    "ITEMS:expansive_tools_pack:tntickaxe_repair_items": [
+      "~Items.REDSTONE",
+      "~Blocks.TNT"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:TNTARMOR.helmet"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:TNTARMOR.body"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:TNTARMOR.legs"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:TNTARMOR.boots"
+    ],
+    "ITEMS:expansive_tools_pack:tntarmor_repair_items": [
+      "~Items.REDSTONE",
+      "~Blocks.REDSTONE_BLOCK",
+      "~Blocks.TNT"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.i_got_the_power.descr": "Obtain a TNT Pickaxe!",
+      "advancements.i_got_the_power.title": "I Got The Power!",
+      "item.expansive_tools_pack.tntickaxe": "TNTICKAXE",
+      "item.expansive_tools_pack.tntarmor_helmet": "TNT Helmet",
+      "item.expansive_tools_pack.tntarmor_chestplate": "TNT Chestplate",
+      "item.expansive_tools_pack.tntarmor_helmet.description_0": "This can get you out of alot of jams!",
+      "item.expansive_tools_pack.tntarmor_boots": "TNT Boots",
+      "item.expansive_tools_pack.tntarmor_leggings.description_0": "This can get you out of alot of jams!",
+      "item.expansive_tools_pack.tntarmor_boots.description_0": "This can get you out of alot of jams!",
+      "item.expansive_tools_pack.tntarmor_leggings": "TNT Leggings",
+      "item.expansive_tools_pack.tntarmor_chestplate.description_0": "This can get you out of alot of jams!"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/expansivetoolspack/init/ExpansiveToolsPackModItems.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/net/mcreator/expansivetoolspack/init/ExpansiveToolsPackModTabs.java",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/java/net/mcreator/expansivetoolspack/ExpansiveToolsPackMod.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "TNT Pack",
+        "children": [
+          {
+            "name": "TNT TOOLS",
+            "children": [
+              {
+                "name": "TNT PICKAXE",
+                "children": []
+              },
+              {
+                "name": "TNT SWORD",
+                "children": []
+              },
+              {
+                "name": "TNT AXE",
+                "children": []
+              },
+              {
+                "name": "TNT SHOVEL",
+                "children": []
+              },
+              {
+                "name": "TNT TRIDENT",
+                "children": []
+              },
+              {
+                "name": "TNT HOE",
+                "children": []
+              }
+            ]
+          },
+          {
+            "name": "TNT ACHIVEMENTS",
+            "children": []
+          },
+          {
+            "name": "TNT ARMOR",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "expansive_tools_pack",
+    "modName": "Expansive Tools Pack",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.8",
+    "modElementsPackage": "net.mcreator.expansivetoolspack"
+  },
+  "mcreatorVersion": 202500345720
+}

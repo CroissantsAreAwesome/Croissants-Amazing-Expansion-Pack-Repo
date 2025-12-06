@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "expansive_tools_pack:tntarmor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "expansive_tools_pack:tntarmor"
+      }
+    ]
+  }
+}

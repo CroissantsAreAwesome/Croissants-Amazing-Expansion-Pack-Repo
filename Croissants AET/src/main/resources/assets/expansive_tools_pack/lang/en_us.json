@@ -1,0 +1,13 @@
+{
+  "advancements.i_got_the_power.descr": "Obtain a TNT Pickaxe!",
+  "advancements.i_got_the_power.title": "I Got The Power!",
+  "item.expansive_tools_pack.tntickaxe": "TNTICKAXE",
+  "item.expansive_tools_pack.tntarmor_helmet": "TNT Helmet",
+  "item.expansive_tools_pack.tntarmor_chestplate": "TNT Chestplate",
+  "item.expansive_tools_pack.tntarmor_helmet.description_0": "This can get you out of alot of jams!",
+  "item.expansive_tools_pack.tntarmor_boots": "TNT Boots",
+  "item.expansive_tools_pack.tntarmor_leggings.description_0": "This can get you out of alot of jams!",
+  "item.expansive_tools_pack.tntarmor_boots.description_0": "This can get you out of alot of jams!",
+  "item.expansive_tools_pack.tntarmor_leggings": "TNT Leggings",
+  "item.expansive_tools_pack.tntarmor_chestplate.description_0": "This can get you out of alot of jams!"
+}

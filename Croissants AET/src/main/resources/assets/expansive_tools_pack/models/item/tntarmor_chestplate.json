@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "expansive_tools_pack:item/tnt_armour_body"
+  }
+}

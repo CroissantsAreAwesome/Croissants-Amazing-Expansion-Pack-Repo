@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    " c ",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:tnt",
+    "b": "minecraft:redstone_block",
+    "c": "minecraft:stick"
+  },
+  "result": {
+    "id": "expansive_tools_pack:tntickaxe",
+    "count": 1
+  }
+}

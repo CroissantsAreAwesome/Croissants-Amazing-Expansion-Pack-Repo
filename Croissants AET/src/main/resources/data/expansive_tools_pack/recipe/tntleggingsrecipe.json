@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": "minecraft:tnt",
+    "b": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "expansive_tools_pack:tntarmor_leggings",
+    "count": 1
+  }
+}

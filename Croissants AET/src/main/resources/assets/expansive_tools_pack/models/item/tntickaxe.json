@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "expansive_tools_pack:item/tnt_pickaxe"
+  }
+}

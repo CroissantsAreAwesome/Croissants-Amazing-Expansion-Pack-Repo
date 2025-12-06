@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a a",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": "minecraft:tnt",
+    "b": "minecraft:redstone_block"
+  },
+  "result": {
+    "id": "expansive_tools_pack:tntarmor_chestplate",
+    "count": 1
+  }
+}
